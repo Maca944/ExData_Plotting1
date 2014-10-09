@@ -18,13 +18,13 @@ par(mfrow = c(2,2))
 plot(hpc$DateTime, hpc$Global_active_power,
      type = "l",
      xlab = "",
-     ylab = "Global Active Power (kilowatts)") # name the y-axis
+     ylab = "Global Active Power") # name the y-axis
 
 plot(hpc$DateTime, hpc$Voltage,
-    type = "l",
-    xlab = "datetime",
-    ylab = "Voltage", # name the y-axis
-    ylim = c(234,246))
+     type = "l",
+     xlab = "datetime",
+     ylab = "Voltage", # name the y-axis
+     ylim = c(234,246))
 
 plot(hpc$DateTime, hpc$Sub_metering_1, 
      type = "l",
